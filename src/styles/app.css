@@ -88,8 +88,10 @@ i {
   background-color: var(--foreground);
 }
 .logo {
-  height: 55px;
-  margin-top: 20px;
+  height: 65px;
+  /* margin-top: 20px; */
+  position: relative;
+  top: 250px;
 }
 .index-top-section {
   /* background-image: var(--background-home-image); */
@@ -114,8 +116,9 @@ i {
   /* top: 40px; */
 }
 .bitriels-apps {
-  width: 1200px;
+  width: 900px;
   position: relative;
+  left: 120px;
 }
 .apps-title-container {
   width: 70%;
@@ -136,7 +139,7 @@ i {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 80px 0;
+  margin: 300px 0;
   width: 75%;
 }
 .welcome-message {
@@ -940,6 +943,33 @@ i {
 /* ================responsive ================ */
 
 @media screen and (max-width: 1600px) {
+  .bitriels-apps {
+    width: 600px;
+    position: relative;
+    left: 260px;
+  }
+  .logo {
+    position: relative;
+    top: 200px;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px 0;
+    width: 75%;
+  }
+  .index-container {
+    max-width: 70rem;
+    margin: 0px auto;
+    height: 850px !important;
+  }
+  .bitriel-mock-up {
+    width: 500px;
+    position: absolute;
+    right: -100px;
+    top: 90px;
+  }
   .coin-transparent {
     position: absolute;
     left: -300px;
@@ -971,7 +1001,7 @@ i {
     height: 747px !important;
   }
   .welcome {
-    width: 93%;
+    width: 80%;
   }
   .bitriels-apps {
     width: 900px;
@@ -1015,6 +1045,17 @@ i {
   }
   .receive-address {
     font-size: 13px;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 170px 0;
+    width: 80% !important;
+  }
+  .logo {
+    position: relative;
+    top: 150px;
   }
 }
 
@@ -1066,9 +1107,9 @@ i {
   .welcome-message {
     font-size: 40px;
   }
-  .apps-section {
+  /* .apps-section {
     width: 80%;
-  }
+  } */
   .index-footer {
     display: flex;
     justify-content: center;
@@ -1079,6 +1120,11 @@ i {
 }
 
 @media screen and (max-width: 600px) {
+  .welcome {
+    margin: 0;
+    padding: 20px 0px;
+    width: 100% !important;
+  }
   .staking-overview {
     display: flex;
     flex-direction: row;
@@ -1139,5 +1185,13 @@ i {
   }
   .logo {
     height: 40px !important;
+    position: relative;
+    top: 20px;
+  }
+  .bitriels-apps {
+    width: 350px;
+    margin-top: 50px;
+    position: relative;
+    left: 0;
   }
 }

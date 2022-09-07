@@ -5,7 +5,7 @@ const { Footer, Content } = Layout;
 
 export default function LayoutComponent({ children }) {
   return (
-    <Layout hasSider>
+    <Layout>
       <Sidebar />
       <Layout>
         <Content>

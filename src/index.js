@@ -1,8 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { ConfigProvider } from 'antd';
-import { Toaster } from 'react-hot-toast';
-// import Provider from './provider';
 import App from './App';
 
 import 'antd/dist/antd.variable.min.css';
@@ -17,15 +15,9 @@ ConfigProvider.config({
 
 render(
   <>
-    <Toaster
-      position="top-right"
-      toastOptions={{
-        className: 'toast-styling',
-      }}
-    />
-    <div className="body-backgrond">
+    <React.StrictMode>
       <App />
-    </div>
+    </React.StrictMode>
   </>,
   document.getElementById('root')
 );

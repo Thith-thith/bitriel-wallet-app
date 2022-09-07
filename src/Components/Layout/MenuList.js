@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { routes } from '../../routes';
 import docs from './../../assets/sidebar-icons/docs.svg';
 import setting from './../../assets/sidebar-icons/docs.svg';
-import { useTheme } from 'next-themes';
 
 const buttomMenus = [
   {
@@ -24,7 +23,6 @@ const buttomMenus = [
 ];
 
 export default function MenuList() {
-  const { theme, setTheme } = useTheme();
   const location = useLocation();
   const active = (path) => path === location.pathname;
 
@@ -114,7 +112,7 @@ export default function MenuList() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/selendra"
+              href="https://github.com/bitriel"
             >
               <i className="ri-github-fill github-icon"></i>
               <span className="github">Github</span>

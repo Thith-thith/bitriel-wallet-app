@@ -19,11 +19,11 @@ const routes = [
     name: 'Home',
     icon: home,
     element: (
-      <Sidebar>
-        <PageRouteAnimation myKey="home">
-          <Home />
-        </PageRouteAnimation>
-      </Sidebar>
+      // <Sidebar>
+      <PageRouteAnimation myKey="home">
+        <Home />
+      </PageRouteAnimation>
+      // </Sidebar>
     ),
   },
   {

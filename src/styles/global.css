@@ -185,7 +185,7 @@ html[data-theme='light'] {
 }
 .funan-btnAccent {
   color: var(--text-color) !important;
-  background-color: var(--background) !important;
+  background: var(--background) !important;
 }
 .funan-btnPrimaryMedium,
 .funan-btnSecondaryMedium {
@@ -197,6 +197,7 @@ html[data-theme='light'] {
 .funan-btnAccentMedium {
   height: 55px !important;
   border-radius: 32px !important;
+  background: rgb(234, 234, 234) !important;
 }
 .funan-btnPrimaryLarge,
 .funan-btnSecondaryLarge,
@@ -546,8 +547,16 @@ html[data-theme='light'] {
   border-radius: 12px !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .funan-card {
     padding: 0;
+  }
+  .funan-btnPrimaryLarge,
+  .funan-btnSecondaryLarge,
+  .funan-btnThirdLarge {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    height: 54px !important;
+    border-radius: 30px !important;
   }
 }

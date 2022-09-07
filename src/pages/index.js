@@ -23,14 +23,15 @@ export default function Index() {
             <Col xs={24} sm={24} md={18} lg={18} xl={18} xxl={18}>
               <img src={selTransparent} alt="" className="coin-transparent" />
               <div className="welcome">
-                <div className="welcome-message">Bitriel Wallet</div>
+                {/* <div className="welcome-message">Bitriel Wallet</div> */}
                 <h4 className="welcome-sub-message">
-                  Digital wallet management for cross-chain assets, staking and
-                  governance operations, collection and self-owned private key.
+                  Cross-chains digital wallet, decentralized exchange,
+                  decentralized derivatives trading, launchpad, decentralized
+                  investment and funding platform, and more.
                 </h4>
                 <div className="create-restore-buttons">
                   <Row gutter={[15, 15]}>
-                    <Col xs={24} sm={12} md={8} lg={8} xl={8} xxl={8}>
+                    <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                       <Button.Third large block>
                         <Link to="/home">
                           <img
@@ -43,7 +44,7 @@ export default function Index() {
                         </Link>
                       </Button.Third>
                     </Col>
-                    <Col xs={24} sm={12} md={8} lg={8} xl={8} xxl={8}>
+                    <Col span={12}>
                       <Button.Third large block>
                         <img
                           src={restoreWallet}
@@ -83,7 +84,7 @@ export default function Index() {
             <br />
 
             <Row gutter={[18, 18]} justify="space-between">
-              <Col xs={24} sm={12} md={12} lg={12} xl={12} xxl={12}>
+              <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                 <Button.Accent medium block>
                   <a
                     target="_blank"
@@ -95,7 +96,7 @@ export default function Index() {
                   </a>
                 </Button.Accent>
               </Col>
-              <Col xs={24} sm={12} md={12} lg={12} xl={12} xxl={12}>
+              <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                 <Button.Accent medium block>
                   <img src={apple} alt="" height="30px" />
                   IOS
@@ -149,6 +150,13 @@ export default function Index() {
               href="https://medium.com/selendra"
             >
               <i className="ri-medium-fill"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/bitriel"
+            >
+              <i class="ri-github-fill"></i>
             </a>
           </Col>
           <Col>
