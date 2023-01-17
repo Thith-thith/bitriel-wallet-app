@@ -89,7 +89,6 @@ i {
 }
 .logo {
   height: 65px;
-  /* margin-top: 20px; */
   position: relative;
   top: 250px;
 }
@@ -152,6 +151,11 @@ i {
   color: #fff !important;
   margin-top: 10px !important;
 }
+.welcome-sub-message-2 {
+  font-size: 24px;
+  color: #fff !important;
+  margin-top: 10px !important;
+}
 .create-restore-buttons {
   padding-top: 50px;
 }
@@ -203,11 +207,11 @@ i {
   top: -5px;
 }
 .wrapper {
-  margin-left: 250px !important;
-  backdrop-filter: blur(16px) saturate(180%) !important;
-  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  margin-left: 250px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
   /* background: linear-gradient(135deg, #13f1fc 0%, #0470dc 100%) !important; */
-  animation: gradient 15s ease infinite !important;
+  animation: gradient 15s ease infinite;
 }
 .container {
   max-width: 60rem !important;
@@ -218,10 +222,10 @@ i {
   margin: auto;
 } */
 .wrapper .wrapper-sub-background {
-  min-height: 100vh !important;
-  padding: 50px 0 !important;
-  backdrop-filter: blur(16px) saturate(180%) !important;
-  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  min-height: 100vh;
+  padding: 50px 0;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
   animation: gradient 15s ease infinite;
   /* background-color: rgba(243, 243, 243, 0.911); */
 }
@@ -583,6 +587,20 @@ i {
 }
 /*===>> END STAKING <<===*/
 /*===>> LOADING <<===*/
+.nodata {
+  height: 100%;
+  width: 100%;
+  background: var(--background-card);
+  backdrop-filter: blur(9px) saturate(180%);
+  -webkit-backdrop-filter: blur(9px) saturate(180%);
+  border-radius: 16px;
+  opacity: 1;
+  transition: 0.4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 45% 30%;
+}
 .connecting-node {
   width: 100%;
   height: 100vh;
@@ -610,7 +628,7 @@ i {
   top: -6px;
 }
 .about-container {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 /*===>> END LOADING <<===*/
 
@@ -939,6 +957,149 @@ i {
 .raise-goal {
   color: var(--primary) !important;
 }
+.black-background {
+  background: var(--primary-gradient) !important;
+}
+.market-title {
+  font-size: 64px !important;
+  color: #fff !important;
+  font-weight: 600;
+  position: relative;
+  top: -60px;
+}
+.bitriel-market-place {
+  font-size: 128px !important;
+  color: rgb(255, 159, 73) !important;
+  position: relative;
+  top: 30px;
+  left: 0;
+}
+.bitriel-market-img {
+  width: 800px;
+}
+
+.container2 {
+  position: relative;
+  top: -200px;
+}
+.btn {
+  margin-top: calc(50% + 25px);
+  position: relative;
+  display: inline-block;
+  width: 277px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 0.045em;
+}
+
+.btn svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn svg rect {
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.btn span {
+  color: #fff !important;
+}
+
+.btn:hover svg rect {
+  stroke-width: 2;
+  stroke-dasharray: 196, 543;
+  stroke-dashoffset: 437;
+}
+
+.paper-container{
+  padding: 30px 60px;
+}
+.paper{
+  background:#fff !important;
+  padding: 50px 120px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  line-height: 2.2;
+  font-size: 16px !important;
+}
+.logo-2{
+  height: 45px;
+}
+
+.ant-layout .footer {
+  background: #162126 !important;
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
+.logo-footer {
+  width: 200px;
+  position: relative;
+  left: -25px;
+  margin-bottom: 40px;
+}
+.footer-head-info {
+  font-size: 24px !important;
+  font-weight: bold;
+  color: #d8d8d8 !important;
+}
+
+.container .footer .btn-color {
+  background: #1b262c !important;
+  color: #f5f5f5;
+  font-weight: 600;
+  border-radius: 50px !important;
+}
+.container .footer p {
+  color: #d8d8d8;
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.ant-layout-footer {
+  padding: 20px 0 20px 0;
+  background: #00325c !important;
+  color: #f5f5f5 !important;
+}
+.social-media svg {
+  font-size: 30px !important;
+  margin-left: 0px;
+  margin-bottom: 5px !important;
+}
+.social-media svg {
+  background-color: #c1c1c1;
+  font-size: 32px;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 6px;
+  color: #1b262c;
+  margin-bottom: 15px;
+  transition: .3s;
+}
+.sub-header-footer {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 6px 0px !important;
+}
+.sub-header-footer a {
+  color: #c1c1c1 !important ;
+}
+
 
 /* ================responsive ================ */
 
@@ -959,17 +1120,6 @@ i {
     margin: 200px 0;
     width: 75%;
   }
-  .index-container {
-    max-width: 70rem;
-    margin: 0px auto;
-    height: 850px !important;
-  }
-  .bitriel-mock-up {
-    width: 500px;
-    position: absolute;
-    right: -100px;
-    top: 90px;
-  }
   .coin-transparent {
     position: absolute;
     left: -300px;
@@ -988,24 +1138,44 @@ i {
   .connect-evm {
     margin-right: 250px;
   }
+  .bitriel-mock-up {
+    width: 500px;
+    position: absolute;
+    right: -100px;
+    top: 90px;
+  }
+  .index-container {
+    max-width: 70rem;
+    margin: 0px auto;
+    height: 850px !important;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  .bitriel-mock-up {
-    width: 600px;
-    position: absolute;
-    right: -160px;
+  .market-title {
+    font-size: 55px !important;
+  }
+  .bitriel-market-img {
+    width: 520px;
   }
   .index-container {
     padding: 20px 120px;
+    /* height: 747px !important; */
   }
   .welcome {
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 170px 0;
+    width: 80% !important;
+  }
+  .logo {
+    position: relative;
+    top: 150px;
   }
   .bitriels-apps {
-    width: 900px;
+    width: 500px;
     margin: auto;
-    display: grid;
   }
   .connect-evm {
     margin-right: 27px;
@@ -1045,17 +1215,6 @@ i {
   .receive-address {
     font-size: 13px;
   }
-  .welcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 170px 0;
-    width: 80% !important;
-  }
-  .logo {
-    position: relative;
-    top: 150px;
-  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1079,9 +1238,8 @@ i {
     width: 100%;
   }
   .bitriels-apps {
-    width: 600px;
+    width: 350px;
     margin: auto;
-    display: grid;
   }
   .welcome-message {
     font-size: 40px;
@@ -1091,6 +1249,9 @@ i {
   }
 }
 @media screen and (max-width: 812px) {
+  .bitriel-market-img {
+    width: 390px;
+  }
   .about-container {
     padding-top: 460px !important;
   }
@@ -1119,10 +1280,17 @@ i {
 }
 
 @media screen and (max-width: 600px) {
-  .welcome {
-    margin: 0;
-    padding: 20px 0px;
-    width: 100% !important;
+  .bitriel-market-place {
+    font-size: 85px !important;
+  }
+  .container2 {
+    text-align: center;
+  }
+  .market-title {
+    font-size: 37px !important;
+  }
+  .bitriel-market-place {
+    font-size: 85px !important;
   }
   .staking-overview {
     display: flex;
@@ -1152,6 +1320,16 @@ i {
   .welcome-sub-message {
     font-size: 16px;
   }
+  .welcome-sub-message-2 {
+    text-align: center;
+    font-size: 18px !important;
+    margin-top: -20px !important;
+  }
+  .bitriel-market-img {
+    width: 320px;
+    position: relative;
+    top: -50px;
+  }
   .bitriel-mock-up {
     width: 300px;
     position: absolute;
@@ -1171,6 +1349,8 @@ i {
   .bitriels-apps {
     width: 350px;
     margin-top: 50px;
+    position: relative;
+    left: 0;
   }
   .apps-title-container {
     width: 89%;
@@ -1180,17 +1360,15 @@ i {
   }
   .welcome {
     margin: 0;
-    padding: 30px 0px;
+    padding: 20px 0px;
+    width: 100% !important;
   }
   .logo {
     height: 40px !important;
     position: relative;
     top: 20px;
   }
-  .bitriels-apps {
-    width: 350px;
-    margin-top: 50px;
-    position: relative;
-    left: 0;
+  .index-container {
+    height: 800px !important;
   }
 }

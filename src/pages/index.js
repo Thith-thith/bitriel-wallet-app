@@ -1,16 +1,17 @@
-import { Row, Col } from "antd";
-import React from "react";
+import bitrileMockup from "..//assets/bitriels.png";
 import { Button } from "../Components/globalComponents";
 // import logoWhite from '../assets/BITRIEL.svg';
 import logoWhite from "../assets/BITRIEL.svg";
+import selTransparent from "../assets/SEL-coin-transparent.png";
+import mobile from "../assets/bitriel-3.svg";
 import bitrileLogo from "../assets/bitriel-logo.png";
-import bitrileMockup from "..//assets/bitriels.png";
-import createWallet from "../assets/icons/create-wallet-white.svg";
-import restoreWallet from "../assets/icons/restore-white.svg";
+import bitrielMarket from "../assets/bitriel-market-4.png";
 import android from "../assets/icons/android.svg";
 import apple from "../assets/icons/apple.svg";
-import mobile from "../assets/bitriel-3.svg";
-import selTransparent from "../assets/SEL-coin-transparent.png";
+import createWallet from "../assets/icons/create-wallet-white.svg";
+import restoreWallet from "../assets/icons/restore-white.svg";
+import { Col, Row } from "antd";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Index() {
@@ -112,56 +113,51 @@ export default function Index() {
 				</div>
 			</div>
 
-			<div className="index-container2">
-				<Row className="index-footer" align="middle">
-					<Col>
-						<a
-							target="_blank"
-							rel="noreferrer"
-							href="https://www.facebook.com/selendrachain"
-						>
-							<i className="ri-facebook-fill"></i>
-						</a>
-						<a
-							target="_blank"
-							rel="noreferrer"
-							href="http://t.me/selendrachainofficial/193"
-						>
-							<i className="ri-telegram-fill"></i>
-						</a>
-						<a
-							target="_blank"
-							rel="noreferrer"
-							href="https://twitter.com/selendrachain"
-						>
-							<i className="ri-twitter-fill"></i>
-						</a>
-						<a
-							target="_blank"
-							rel="noreferrer"
-							href="https://kh.linkedin.com/company/selendrachain"
-						>
-							<i className="ri-linkedin-fill"></i>
-						</a>
-						<a
-							target="_blank"
-							rel="noreferrer"
-							href="https://medium.com/selendra"
-						>
-							<i className="ri-medium-fill"></i>
-						</a>
-						<a
-							target="_blank"
-							rel="noreferrer"
-							href="https://github.com/bitriel"
-						>
-							<i class="ri-github-fill"></i>
-						</a>
-					</Col>
-					<Col>
-						<p>2022 © Selendra, Blockchain</p>
-					</Col>
-				</Row>
+			<div className="black-background">
+				<div className="index-container ">
+					<center>
+						<h1 className="bitriel-market-place">MARKET</h1>
+						<h1 className="market-title">Trade Crypto Decentralized</h1>
+					</center>
+					<Row gutter={24}>
+						<Col xs={24} sm={24} md={12} lg={12} xl={10} xxl={10}>
+							<h4 className="welcome-sub-message-2">
+								Explore trading, GameFi, and APX in the Bitriel ecosystem.
+							</h4>
+							<div class="container2">
+								<a
+									href="https://market.bitriel.com/"
+									target="_blank"
+									rel="noreferrer"
+									class="btn"
+								>
+									<svg width="277" height="62">
+										<defs>
+											<linearGradient id="grad1">
+												<stop offset="0%" stop-color="#FF8282" />
+												<stop offset="100%" stop-color="#E178ED" />
+											</linearGradient>
+										</defs>
+										<rect
+											x="5"
+											y="5"
+											rx="25"
+											fill="none"
+											stroke="url(#grad1)"
+											width="266"
+											height="50"
+										></rect>
+									</svg>
+
+									<span>trade here</span>
+								</a>
+							</div>
+						</Col>
+						<Col xs={24} sm={24} md={12} lg={12} xl={14} xxl={14}>
+							<img src={bitrielMarket} alt="" className="bitriel-market-img" />
+						</Col>
+					</Row>
+				</div>
 			</div>
 		</div>
 	);

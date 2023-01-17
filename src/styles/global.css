@@ -532,9 +532,9 @@ html[data-theme='light'] {
 }
 
 /*==footer=== */
-.ant-layout-footer {
+/* .ant-layout-footer {
   background: var(--sidebar) !important;
-}
+} */
 
 /* divider */
 
