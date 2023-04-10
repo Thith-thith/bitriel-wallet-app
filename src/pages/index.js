@@ -21,7 +21,7 @@ export default function Index() {
 				<div className="index-container">
 					<img src={logoWhite} alt="" className="logo" />
 					<Row>
-						<Col xs={24} sm={24} md={18} lg={18} xl={18} xxl={18}>
+						<Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
 							<img src={selTransparent} alt="" className="coin-transparent" />
 							<div className="welcome">
 								<h4 className="welcome-sub-message">
@@ -58,8 +58,18 @@ export default function Index() {
 								</div>
 							</div>
 						</Col>
-						<Col xs={24} sm={24} md={6} lg={6} xl={6} xxl={6}>
-							<img src={mobile} alt="bitriel app" className="bitriel-mock-up" />
+						<Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
+							{/* <img src={mobile} alt="bitriel app" className="bitriel-mock-up" /> */}
+							<div className="lets-widget" id="lets_widget_kn0jXoqXjWt8TYid">
+								<iframe
+									className=" widget-plugin "
+									src="https://letsexchange.io/v2/widget?affiliate_id=kn0jXoqXjWt8TYid&is_iframe=true"
+									width="100%"
+									height="100%"
+									frameBorder="0"
+									allow="clipboard-read; clipboard-write"
+								/>
+							</div>
 						</Col>
 					</Row>
 				</div>
@@ -146,7 +156,7 @@ export default function Index() {
 											stroke="url(#grad1)"
 											width="266"
 											height="50"
-										></rect>
+										/>
 									</svg>
 
 									<span>trade here</span>

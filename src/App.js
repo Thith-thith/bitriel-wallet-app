@@ -14,6 +14,12 @@ export default function App() {
 					<meta charSet="utf-8" />
 					<title>BITRIEL.COM</title>
 					<link rel="canonical" href="https://bitriel.com" />
+					<link
+						rel="stylesheet"
+						type="text/css"
+						href="https://letsexchange.io/widget_lets.css"
+					/>
+					<script src="https://letsexchange.io/init_widget.js" />
 				</Helmet>
 				‍
 				<Routes>

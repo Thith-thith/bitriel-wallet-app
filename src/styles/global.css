@@ -546,6 +546,11 @@ html[data-theme='light'] {
 .ant-alert {
   border-radius: 12px !important;
 }
+.widget-plugin{
+  position: absolute !important;
+  border-radius: 12px !important;
+  top: 6rem;  
+}
 
 @media screen and (max-width: 600px) {
   .funan-card {
@@ -558,5 +563,10 @@ html[data-theme='light'] {
     font-weight: 600 !important;
     height: 54px !important;
     border-radius: 30px !important;
+  }
+  .widget-plugin{
+    position: absolute !important;
+    border-radius: 12px !important;
+    top: 0rem;  
   }
 }
