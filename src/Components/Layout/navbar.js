@@ -14,7 +14,7 @@ const Navbar = () => {
 				</Link>
 				<Space size={24}>
 					<Link to="/about">
-						<h2 className="about-header">About Us</h2>
+						<h2 className="about-header">About</h2>
 					</Link>
 					<Link to="/faq">
 						<h2 className="about-header">FAQs</h2>

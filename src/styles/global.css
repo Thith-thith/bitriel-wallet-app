@@ -102,10 +102,10 @@ html[data-theme='light'] {
 }
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
 .ant-tabs-tab:hover {
-  color: var(--primary) !important;
+  color: #fff !important;
 }
 .ant-tabs-ink-bar {
-  background-color: var(--primary) !important;
+  background-color: #fff !important;
 }
 .ant-tabs {
   color: #878787 !important;

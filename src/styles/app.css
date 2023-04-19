@@ -1155,6 +1155,16 @@ i {
   width: 60%;
   margin: auto;
 }
+.faq-banner{
+  width: 100%;
+  position: absolute;
+  z-index: -50;
+  top: 0;
+}
+.faq-banner-header{
+  font-size: 36px;
+  color: #fff !important;
+}
 
 /* ================responsive ================ */
 
@@ -1348,6 +1358,10 @@ i {
 }
 
 @media screen and (max-width: 600px) {
+  .faq-banner-header {
+    font-size: 24px;
+    color: #fff !important;
+  }
   
   .collapse-container {
     width: 93%;
