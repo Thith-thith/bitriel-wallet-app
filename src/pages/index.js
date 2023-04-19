@@ -1,9 +1,8 @@
-import bitrileMockup from "..//assets/bitriels.png";
+import bitrileMockup from "../assets/bitriels.png";
 import { Button } from "../Components/globalComponents";
 // import logoWhite from '../assets/BITRIEL.svg';
 import logoWhite from "../assets/BITRIEL.svg";
 import selTransparent from "../assets/SEL-coin-transparent.png";
-import mobile from "../assets/bitriel-3.svg";
 import bitrileLogo from "../assets/bitriel-logo.png";
 import bitrielMarket from "../assets/bitriel-market-4.png";
 import android from "../assets/icons/android.svg";
@@ -19,15 +18,14 @@ export default function Index() {
 		<div className="index-wrapper">
 			<div className="index-top-section">
 				<div className="index-container">
-					<img src={logoWhite} alt="" className="logo" />
+					{/* <img src={logoWhite} alt="" className="logo" /> */}
 					<Row>
 						<Col xs={24} sm={24} md={14} lg={14} xl={14} xxl={14}>
 							<img src={selTransparent} alt="" className="coin-transparent" />
 							<div className="welcome">
 								<h4 className="welcome-sub-message">
-									Cross-chains digital wallet, decentralized exchange,
-									decentralized derivatives trading, launchpad, decentralized
-									investment and funding platform, and more.
+									Bitriel is a self-custody digital wallet that supports
+									cross-chain multi-assets, including crypto assets and NFTs
 								</h4>
 								<div className="create-restore-buttons">
 									<Row gutter={[15, 15]}>
@@ -132,7 +130,9 @@ export default function Index() {
 					<Row gutter={24}>
 						<Col xs={24} sm={24} md={12} lg={12} xl={10} xxl={10}>
 							<h4 className="welcome-sub-message-2">
-								Explore trading, GameFi, and APX in the Bitriel ecosystem.
+								Bitriel also offers a decentralized exchange, fiat/crypto onramp
+								and offramp, an NFT marketplace, and event tickets for cultural
+								sites and travel industry.
 							</h4>
 							<div class="container2">
 								<a

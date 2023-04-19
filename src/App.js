@@ -5,6 +5,10 @@ import "./styles/global.css";
 import { AnimatePresence } from "framer-motion";
 import { Helmet } from "react-helmet";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./Components/Layout/navbar";
+import { Layout } from "antd";
+
+const { Content } = Layout;
 
 export default function App() {
 	return (
@@ -22,12 +26,17 @@ export default function App() {
 					<script src="https://letsexchange.io/init_widget.js" />
 				</Helmet>
 				‍
-				<Routes>
-					{routes.map((i) => (
-						<Route key={i.path} path={i.path} element={i.element} />
-					))}
-				</Routes>
-				<BFooter />
+				<Layout>
+					<Navbar />
+					<Content>
+						<Routes>
+							{routes.map((i) => (
+								<Route key={i.path} path={i.path} element={i.element} />
+							))}
+						</Routes>
+					</Content>
+					<BFooter />
+				</Layout>
 			</AnimatePresence>
 		</BrowserRouter>
 	);

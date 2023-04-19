@@ -52,7 +52,7 @@ const BFooter = () => {
 								<a
 									target="_blank"
 									rel="noreferrer"
-									href="http://t.me/selendrachainofficial/193"
+									href="https://t.me/s/selendrachainofficial"
 								>
 									Community
 								</a>
@@ -73,7 +73,7 @@ const BFooter = () => {
 									<a
 										target="_blank"
 										rel="noreferrer"
-										href="http://t.me/selendrachainofficial/193"
+										href="https://t.me/s/selendrachainofficial"
 									>
 										<FaTelegramPlane />
 									</a>

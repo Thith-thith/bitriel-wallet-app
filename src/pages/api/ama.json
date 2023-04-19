@@ -1,0 +1,70 @@
+[
+	{
+		"header": "1. What is a Bitriel wallet and the main features?",
+		"panel": "<p>Bitriel is a versatile digital wallet that supports cross-chain transactions and offers a variety of features such as decentralized exchange and derivatives trading, launchpad, and decentralized investment and funding platform.</p> <p>Additionally, it allows users to manage their cross-chain assets, participate in staking and governance activities, and retain control over their private keys. </p> <p>Bitriel plans to support Selendra and other substrate-based networks for staking and governance, with more chains to be added in the future.</p>"
+	},
+	{
+		"header": "2. Is Bitriel wallet a self-custody digital wallet?",
+		"panel": "<p>Yes, Bitriel is a self-custody digital wallet that gives users complete control and ownership over their assets. </p>"
+	},
+	{
+		"header": "3. Does Bitriel wallet support cross-chain multi-assets?",
+		"panel": "<p>Yes, Bitriel supports the storage of cross-chain and multi-assets. At present, it supports assets from Bitcoin, Ethereum, BNB Chain, and Selendra networks.</p>"
+	},
+	{
+		"header": "4. What types of assets does Bitriel wallet support?",
+		"panel": "<p>Any assets on the above mentioned networks.</p>"
+	},
+	{
+		"header": "5. Does Bitriel wallet support NFTs?",
+		"panel": "<p>Yes, Bitriel currently supports NFT platforms via webview and WalletConnect, including Rarible, Opensea, and KramaNFT among others.</p>"
+	},
+	{
+		"header": "6. Does Bitriel have a decentralized exchange?",
+		"panel": "<p>Yes, Bitriel has partnered with LetsExchange to offer decentralized exchange and token swap experiences to its users. This allows Bitriel users to trade tokens directly within the Bitriel wallet.</p>"
+	},
+	{
+		"header": "7. Can you buy and sell crypto with fiat currency using Bitriel wallet?",
+		"panel": "<p>Currently, the ability to buy and sell crypto with fiat currency is not available on Bitriel wallet. However, we hope to introduce this feature soon.</p>"
+	},
+	{
+		"header": "8. Does Bitriel have an NFT marketplace?",
+		"panel": "<p>Bitriel does not have its own NFT marketplace, but it supports other marketplaces as mentioned earlier.</p>"
+	},
+	{
+		"header": "9. Is Bitriel wallet available on Android and iOS?",
+		"panel": "<p>Bitriel is currently available on PlayStore only. However, it is possible to test Bitriel on iOS AppStore in Testflight mode.</p>"
+	},
+	{
+		"header": "10. How do I test Bitriel on iOS AppStore?",
+		"panel": " <p>To test Bitriel on iOS AppStore, you can follow these steps:</p>  <ol> <li>Go to TestFlight on your iOS device. </li> <li>Install the TestFlight app on your device. </li> <li>Open the invitation email or tap the public link on your iOS device. </li> </li> <li>Tap on “View in TestFlight” or “Start Testing”; or tap on “Accept” or “Redeem” if you have a code. </li> <li>Install Bitriel app. </li> </ol>"
+	},
+	{
+		"header": "11. How do I get started with Bitriel wallet?",
+		"panel": "<p>After downloading the Bitriel App on your phone, you can create an account and follow the instructions to create your wallet. Once you have created your wallet, you can start receiving tokens, coins or digital assets from friends or business transactions. The assets in your wallet are yours and no one can stop or freeze your transactions.</p>"
+	},
+	{
+		"header": "12. How do I restore my Bitriel wallet?",
+		"panel": "<p>To restore a Bitriel account, you need to have either the private key or the passphrase that you were given when you created the wallet. Without these, you or anyone else cannot access or restore the account. <p> If you have the passphrase, then go to “restore an account” and follow the instructions. </p></p>"
+	},
+	{
+		"header": "13. How does Bitriel ensure data safety and privacy for its users?",
+		"panel": "<p>Bitriel doesn’t take any private data from users to function, since it is a self-custody wallet. You can read more about custody in the custody section.</p>"
+	},
+	{
+		"header": "14. Does Bitriel share user data with third parties?",
+		"panel": "<p>No third party uses user data other than allowing transactions during swap. Currently, we partner with LetsExchange to provide decentralized exchange and token swap to users.</p>"
+	},
+	{
+		"header": "15. How do I buy event tickets using Bitriel wallet?",
+		"panel": "<p>At present, the availability of buying tickets is limited. However, we are working with our ticketing partner to introduce NFT Tickets and provide additional benefits to all Bitriel and our partner users.</p>"
+	},
+	{
+		"header": "16. How do I buy cryptocurrency with fiat currency on Bitriel digital wallet?",
+		"panel": "<p>At present, you cannot buy crypto with fiat yet. You will be able to do so when Bitriel launches its on/off ramp service.</p>"
+	},
+	{
+		"header": "17. When will Bitriel launch its on/off ramp service?",
+		"panel": "<p>We are currently developing the technology for Bitriel on/off ramp and are seeking permission and support from regulatory authorities in Cambodia to test it in a sandbox environment.</p>"
+	}
+]

@@ -138,8 +138,15 @@ i {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 300px 0;
+  margin: 90px 0;
   width: 75%;
+}
+.welcome-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 120px 0;
+  width: 90%;
 }
 .welcome-message {
   font-size: 48px;
@@ -147,7 +154,7 @@ i {
   font-weight: bold;
 }
 .welcome-sub-message {
-  font-size: 24px;
+  font-size: 36px;
   color: #fff !important;
   margin-top: 10px !important;
 }
@@ -155,6 +162,12 @@ i {
   font-size: 24px;
   color: #fff !important;
   margin-top: 10px !important;
+}
+.welcome-sub-message-3 {
+  font-size: 21px;
+  color: #fff !important;
+  margin-top: 10px !important;
+  margin-top: 2rem !important;
 }
 .create-restore-buttons {
   padding-top: 50px;
@@ -1099,11 +1112,66 @@ i {
 .sub-header-footer a {
   color: #c1c1c1 !important ;
 }
+.logo-navbar{
+  width: 12rem;
+}
+.ant-layout-header.navbar-background{
+  background: var(--primary-gradient) !important;
+}
 
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+}
+.about-header{
+  color: #fff !important;
+  font-weight: 600;
+}
+.collapse-container{
+  width: 80% ;
+  margin: auto;
+  padding-top: 3rem;
+}
+.faq-header{
+  font-size: 19px;
+
+}
+.panel-faq{
+  line-height: 2;
+  font-size: 16px;
+}
+.panel-faq ol ,ul{
+  list-style-type: lower-alpha;
+  margin-left: 3rem !important;
+}
+.bitriel-mock-up-about {
+  width: 600px;
+  position: relative;
+  right: 100px;
+}
+.about-container{
+  width: 60%;
+  margin: auto;
+}
 
 /* ================responsive ================ */
 
 @media screen and (max-width: 1600px) {
+  .about-container {
+    width: 90%;
+    margin: auto;
+  }
+  .bitriel-mock-up-about {
+    width: 500px;
+    position: relative;
+    right: 100px;
+  }
+  
+  .navbar-container{
+    width: 95%;
+  }
   .bitriels-apps {
     width: 600px;
     position: relative;
@@ -1280,11 +1348,28 @@ i {
 }
 
 @media screen and (max-width: 600px) {
+  
+  .collapse-container {
+    width: 93%;
+    margin: auto;
+    padding-top: 2rem;
+  }
+  .about-header{
+    font-size: 14px;
+  }
+  .navbar-container{
+    width: 100%;
+  }
+  .logo-navbar {
+    width: 6rem;
+  }
   .bitriel-market-place {
     font-size: 85px !important;
   }
   .container2 {
     text-align: center;
+    position: relative;
+    top: -168px;
   }
   .market-title {
     font-size: 37px !important;
@@ -1312,7 +1397,7 @@ i {
     display: none;
   }
   .about-container {
-    padding-top: 250px !important;
+    padding-top: 0px !important;
   }
   .welcome-message {
     font-size: 26px;
@@ -1336,6 +1421,7 @@ i {
     right: 10px;
     top: 18px;
   }
+
   .create-wallet-img {
     height: 30px;
   }

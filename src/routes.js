@@ -10,6 +10,8 @@ import Home from "./pages/home";
 import PrivacyPolicy from "./pages/legal/privacy-policy";
 import TermsConditions from "./pages/legal/terms";
 import NotFound from "./pages/notfound";
+import About from "./pages/about";
+import FAQs from "./pages/FAQs";
 
 const routes = [
 	{
@@ -23,6 +25,14 @@ const routes = [
 	{
 		path: "/legal/terms-conditions",
 		element: <TermsConditions />,
+	},
+	{
+		path: "/about",
+		element: <About />,
+	},
+	{
+		path: "/faq",
+		element: <FAQs />,
 	},
 	{
 		path: "/home",
